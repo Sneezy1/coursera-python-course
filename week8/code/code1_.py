@@ -1,0 +1,6 @@
+sum()
+max()
+min()
+map()
+sorted()
+filter()
