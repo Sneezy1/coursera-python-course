@@ -1,0 +1,5 @@
+print('{0:.25f}'.format(0.1))
+print(1.5.as_integer_ratio())
+print(float(2 ** 100).as_integer_ratio())
+print(1 / 2)
+print(11 % 2.5)
