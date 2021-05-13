@@ -1,0 +1,5 @@
+height = int(input())
+dist_up = int(input())
+dist_down = int(input())
+coeff = 0 ** (dist_up // height)
+print(((height - dist_up - 1) // (dist_up - dist_down) + 2) ** coeff)
