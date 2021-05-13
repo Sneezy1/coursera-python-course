@@ -1,0 +1,5 @@
+fs = open('input.txt', 'r', encoding='utf-8')
+arr = list(fs.read().split())
+fs.close()
+sett = set(arr)
+print(len(sett))
